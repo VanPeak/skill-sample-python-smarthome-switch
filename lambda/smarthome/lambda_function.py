@@ -13,7 +13,7 @@
 
 import boto3
 import json
-from alexa.skills.smarthome import AlexaResponse
+from .alexa.skills.smarthome import AlexaResponse
 
 aws_dynamodb = boto3.client('dynamodb')
 
