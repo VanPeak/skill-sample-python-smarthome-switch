@@ -14,7 +14,7 @@
 import json
 import unittest
 import urllib
-from lambda_function import lambda_handler
+from smarthome.lambda_function import lambda_handler
 
 sample_uri = 'https://raw.githubusercontent.com/alexa/alexa-smarthome/master/sample_messages/'
 

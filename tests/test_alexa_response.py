@@ -12,7 +12,7 @@
 # language governing permissions and limitations under the License.
 
 import unittest
-from alexa.skills.smarthome import AlexaResponse
+from smarthome.alexa.skills.smarthome import AlexaResponse
 
 
 class TestAlexaResponse(unittest.TestCase):
